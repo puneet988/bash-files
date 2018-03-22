@@ -1,0 +1,6 @@
+import readline
+import rlcompleter
+readline.parse_and_bind("tab: complete")
+
+import sys,os,vtk,numpy,cdtime,vcs,cdms2,cdat_info,cdutil,genutil
+
